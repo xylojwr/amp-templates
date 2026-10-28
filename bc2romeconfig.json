@@ -1,0 +1,117 @@
+[
+  {
+    "DisplayName": "Docker image",
+    "Description": "Docker image to run. Keep the default unless you intentionally use a different tag.",
+    "FieldName": "Image",
+    "ParamFieldName": "Image",
+    "InputType": "text",
+    "DefaultValue": "russianvivi/bc2rome:latest",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Container name",
+    "Description": "Unique Docker container name. Use a different name for each server.",
+    "FieldName": "ContainerName",
+    "ParamFieldName": "ContainerName",
+    "InputType": "text",
+    "DefaultValue": "bc2rome",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Server IP (br0)",
+    "Description": "Unused LAN IP assigned to the BC2 container. Reserve it in your router first.",
+    "FieldName": "ServerIP",
+    "ParamFieldName": "ServerIP",
+    "InputType": "text",
+    "DefaultValue": "192.168.0.65",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Instance configuration path",
+    "Description": "Absolute Unraid host path to the existing Instance directory. The Docker daemon resolves this host path.",
+    "FieldName": "InstancePath",
+    "ParamFieldName": "InstancePath",
+    "InputType": "text",
+    "DefaultValue": "/mnt/user/appdata/gaming/bc2rome/source/Instance",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Game TCP port 1",
+    "FieldName": "GameTcpPort1",
+    "ParamFieldName": "GameTcpPort1",
+    "InputType": "number",
+    "DefaultValue": "19026",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Game TCP port 2",
+    "FieldName": "GameTcpPort2",
+    "ParamFieldName": "GameTcpPort2",
+    "InputType": "number",
+    "DefaultValue": "19021",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Game UDP port 1",
+    "FieldName": "GameUdpPort1",
+    "ParamFieldName": "GameUdpPort1",
+    "InputType": "number",
+    "DefaultValue": "19567",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Game UDP port 2",
+    "FieldName": "GameUdpPort2",
+    "ParamFieldName": "GameUdpPort2",
+    "InputType": "number",
+    "DefaultValue": "18390",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "VNC TCP port",
+    "FieldName": "VncPort",
+    "ParamFieldName": "VncPort",
+    "InputType": "number",
+    "DefaultValue": "5900",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Web TCP port",
+    "FieldName": "WebPort",
+    "ParamFieldName": "WebPort",
+    "InputType": "number",
+    "DefaultValue": "8080",
+    "Description": "Host-side port mapped to container port 80. Avoids using a common host port 80.",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  },
+  {
+    "DisplayName": "Procon TCP port",
+    "FieldName": "ProconPort",
+    "ParamFieldName": "ProconPort",
+    "InputType": "number",
+    "DefaultValue": "48888",
+    "Hidden": false,
+    "IncludeInCommandLine": false,
+    "Required": true
+  }
+]

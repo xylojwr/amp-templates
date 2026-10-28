@@ -1,0 +1,44 @@
+[
+  {
+    "Protocol": "TCP",
+    "Port": 19026,
+    "Name": "Game TCP 19026",
+    "Ref": "GameTcpPort1"
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 19021,
+    "Name": "Game TCP 19021",
+    "Ref": "GameTcpPort2"
+  },
+  {
+    "Protocol": "UDP",
+    "Port": 19567,
+    "Name": "Game UDP 19567",
+    "Ref": "GameUdpPort1"
+  },
+  {
+    "Protocol": "UDP",
+    "Port": 18390,
+    "Name": "Game UDP 18390",
+    "Ref": "GameUdpPort2"
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 5900,
+    "Name": "VNC TCP 5900",
+    "Ref": "VncPort"
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 80,
+    "Name": "Web TCP 80",
+    "Ref": "WebPort"
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 48888,
+    "Name": "Procon TCP 48888",
+    "Ref": "ProconPort"
+  }
+]
