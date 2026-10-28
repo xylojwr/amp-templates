@@ -1,6 +1,9 @@
 {
-  "id": "xylojwr-amp-templates",
-  "origin": "xylojwr",
+  "id": "8a4d1d8b-8a82-4b39-9a31-5b4ed08c61b7",
+  "authors": ["xylojwr"],
+  "origin": "https://github.com/xylojwr/amp-templates.git",
   "url": "https://github.com/xylojwr/amp-templates",
-  "prefix": "XYLOJWR"
+  "imagefile": "",
+  "prefix": "",
+  "repotype": "AppTemplates"
 }
